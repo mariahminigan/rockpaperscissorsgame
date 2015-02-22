@@ -47,9 +47,9 @@ while player_win <= 2 and computer_win <= 2:
 		elif comp == "paper":
 			print "the computer picked paper, and scissors beats paper. You won this round!"
 			player_win = player_win + 1
-	elif player == "ham"
-		print "That definitely wasn't an option. Points for creativity!"
-			player_win = player_win + 1
+	elif player == "ham":
+		print "Ham definitely wasn't an option. Points for creativity!"
+		player_win = player_win + 1
 	else:
 		print "You didn't pick rock, paper, or scissors. Bummer. Try again!"
 
