@@ -22,33 +22,36 @@ while player_win <= 2 and computer_win <= 2:
 
 	if player == "rock":
 		if comp == "rock":
-			print "tie! you should redraw."
+			print "Tie! You should redraw."
 		elif comp == "paper":
-			print "the computer picked paper, and paper beats rock. you lose!"
+			print "The computer picked paper, and paper beats rock. You lost this round!"
 			computer_win = computer_win + 1
 		elif comp == "scissors":
-			print "the computer picked scissors, and rock beats scissors. you win!"
+			print "The computer picked scissors, and rock beats scissors. You won this round!"
 			player_win = player_win + 1
 	elif player == "paper":
 		if comp == "paper":
-			print "tie! you should redraw."
+			print "Tie! You should redraw."
 		elif comp == "scissors":
-			print "the computer picked scissors, and scissors beats paper. you lose!"
+			print "The computer picked scissors, and scissors beats paper. You lost this round!"
 			computer_win = computer_win + 1
 		elif comp == "rock":
-			print "the computer picked rock, and paper beats rock. you win!"
+			print "The computer picked rock, and paper beats rock. You won this round!"
 			player_win = player_win + 1
 	elif player == "scissors":
 		if comp == "scissors":
 			print "tie! you should redraw."
 		elif comp == "rock":
-			print "the computer picked rock, and rock beats scissors. you lose!"
+			print "the computer picked rock, and rock beats scissors. You lost this round!"
 			computer_win = computer_win + 1
 		elif comp == "paper":
-			print "the computer picked paper, and scissors beats paper. you win!"
+			print "the computer picked paper, and scissors beats paper. You won this round!"
+			player_win = player_win + 1
+	elif player == "ham"
+		print "That definitely wasn't an option. Points for creativity!"
 			player_win = player_win + 1
 	else:
-		print "you didn't pick rock, paper, or scissors. bummer. try again!"
+		print "You didn't pick rock, paper, or scissors. Bummer. Try again!"
 
 	time.sleep(.5)
 
@@ -56,9 +59,9 @@ while player_win <= 2 and computer_win <= 2:
 
 
 if computer_win == 3:
-	print "You lose!"
+	print "You lost the game!"
 elif player_win == 3:
-	print "You win!"
+	print "You won the game!"
 
 
 
